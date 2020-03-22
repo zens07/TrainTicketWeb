@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.imageCover {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.uploadCover {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  /* cursor: pointer; */
+}
+.inputImage {
+  display: none;
+  /* cursor: pointer; */
+}
+
+.cardHeader {
+  border-bottom-right-radius: 55pt 30pt;
+}
+.imageAttecment {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.colorDefault {
+  background: rgb(42, 211, 251);
+  background: linear-gradient(
+    32deg,
+    rgba(42, 211, 251, 1) 30%,
+    rgba(0, 129, 255, 1) 61%
+  );
+}
+.formInHome {
+  position: absolute;
+  width: 80%;
+  min-height: 236px;
+  max-height: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* left: 139px; */
+  top: 150px;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.cardTicketOrder {
+  /* position: absolute; */
+  width: 80%;
+  min-height: 236px;
+  max-height: fit-content;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* left: 139px; */
+  /* top: 150px; */
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.imageHome1 {
+  position: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 199px;
+  top: 20px;
+
+  background-image: url("./image-bg/dummy1.png");
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.imageHome2 {
+  position: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 199px;
+  right: 60px;
+  background-image: url("./image-bg/dummy2.png");
+  box-sizing: border-box;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
