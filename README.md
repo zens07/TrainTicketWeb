@@ -9,6 +9,7 @@ How To using project in local server
 for client or front-end:
 1. look step by step ok!!
 2. $**cd train-client**
+3. $**npm install**
 4. $**npm start**
 
 for client or frontend:
@@ -19,7 +20,7 @@ for client or frontend:
 #this Application using ORM sequelize for databases
 5. $**npx db:migrate** 
 6. $**npx db:seed:all**
-7. $start server **npm start**
+7. $start backend apps **npm start**
 
 ### Software Support
 What things you need to install the software 
